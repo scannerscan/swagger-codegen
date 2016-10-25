@@ -954,6 +954,10 @@ public abstract class AbstractJavaCodegen extends DefaultCodegen implements Code
         }
         return sb.toString();
     }
+    public void setSupportJava6(boolean value) {
+        this.supportJava6 = value;
+    }
+
 
     public void setSupportJava6(boolean value) {
         this.supportJava6 = value;
