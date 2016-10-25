@@ -24,7 +24,6 @@ public class JavaClientCodegen extends AbstractJavaCodegen implements BeanValida
     protected String gradleWrapperPackage = "gradle.wrapper";
     protected boolean useRxJava = false;
     protected boolean parcelableModel = false;
-    protected boolean useBeanValidation = false;
 
     public JavaClientCodegen() {
         super();
